@@ -32,6 +32,14 @@ Users should be able to:
 
 ## My process
 
+- Used React to break up the process into a more digestible format for a single page
+
+- Place assets folder in src folder so they can be accessed in components
+
+- Create a skeleton with all of the required text and image links
+
+- Split everything into components
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -42,6 +50,9 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
+
+- Learned about SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality
+
 
 ### Continued development
 
