@@ -38,7 +38,7 @@ Users should be able to:
 
 - Create a skeleton with all of the required text and image links
 
-- Split everything into components
+- Split the web page design into three and place in different components
 
 ### Built with
 
