@@ -34,7 +34,7 @@ Users should be able to:
 
 - Used React to break up the process into a more digestible format for a single page
 
-- Place assets folder in src folder so they can be accessed in components
+- Place assets folder in src folder so they can be accessed in components via file paths
 
 - Create a skeleton with all of the required text and image links
 
@@ -44,6 +44,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Google Font API
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -51,7 +52,9 @@ Users should be able to:
 
 ### What I learned
 
-- Learned about SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality
+- Learned about SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality.
+
+- Learned how to use @font-face property in CSS for .ttf files
 
 
 ### Continued development

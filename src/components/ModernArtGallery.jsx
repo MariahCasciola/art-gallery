@@ -4,9 +4,8 @@ import iconArrowLeft from "./../assets/icon-arrow-right.svg";
 
 function ModernArtGallery() {
   return (
-    <header>
-      {/* flex center responsive no-gaps absolute border item */}
-      <div>
+    <header className="component-margin">
+      <div className="mb">
         <img
           className="header-img"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
