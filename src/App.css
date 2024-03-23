@@ -1,64 +1,118 @@
+/* Colors */
+
+:root {
+  --light: #ffffff;
+  --medium: #444444;
+  --dark: #151515;
+  --accent: #d5966c;
+}
+
 /* Basic styling for the whole page */
+
 html {
-  background-color: #fcfaf9;
+  background-color: var(--light);
 }
 
 body {
   margin: 0;
 }
 
-.black-background {
-  background: #151515;
+.container-fit {
+  height: 100%;
+  width: 100%;
 }
 
-/* Colors */
-.red {
-  background-color: red;
-}
-.border {
-  border: solid 1px;
-  border-color: blue;
+.dark-background {
+  background: var(--dark);
 }
 
-.white-text {
-  color: #fcfaf9;
+.light-text {
+  color: var(--light);
 }
 
-.grey-text {
-  color: #444444;
+.medium-text {
+  color: var(--medium);
 }
-
 /* Font styles*/
 
 @font-face {
   font-family: Outfit;
-  src: url("./assets/Outfit-VariableFont_wght.ttf");
+  src: url("./assets/static/Outfit-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: Shoulders;
-  src: url("./assets/BigShouldersDisplay-VariableFont_wght.ttf");
+  src: url("./assets/static/BigShouldersDisplay-Black.ttf");
+}
+
+@font-face {
+  font-family: "Shoulders-Extra-Bold";
+  src: url("./assets/static/BigShouldersDisplay-ExtraBold.ttf");
 }
 
 .heading {
   font-family: "Shoulders", sans-serif;
+  margin-top: 9%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+.img-m {
+  margin-bottom: 5%;
+}
+
+.icon-p {
+  padding: 0.5rem;
+}
+
+.bounding-box {
+  padding: 10%;
 }
 
 .body-p {
   font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: 350;
-  letter-spacing: 1px;
-  line-height: 28px;
+  letter-spacing: 0.063rem;
+  line-height: 1.75rem;
+  padding-top: 7%;
+  padding-bottom: 8%;
 }
 
-/* make all font sizes listed in Figma here */
+/* Shoulders Font-sizes listed in Figma Design System (xlarge to small)*/
 
-.h2 {
-  font-size: 60px;
+.xl {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+.l {
+  font-size: 4.375rem;
   font-weight: 900;
-  line-height: 55px;
+  line-height: 4.375rem;
+}
+
+.m {
+  font-size: 3.75rem;
+  line-height: 3.125rem;
+}
+
+.s {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+}
+
+/* Outfit body font sizes and line heights (medium and small) */
+
+.bm {
+  font-size: 1.375rem;
+  line-height: 2rem;
+}
+
+.bs {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 /* Flex properties */
@@ -79,71 +133,44 @@ body {
   align-items: center;
 }
 
-/* Position properties */
-
-.header-img {
-  max-width: 100%;
+/* Left and right of page borders*/
+.margin-l-r {
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
-/* Margin styles */
-.margin {
-  margin: 3%;
+/* Margin between three main components */
+.component-margin {
+  margin-bottom: 32%;
 }
 
-.ml {
-  margin-left: 10%;
+/* Hover effect */
+
+.sub-button {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.313rem;
+  letter-spacing: 0.25rem;
+  font-family: "Shoulders-Extra-Bold", sans-serif;
+  margin-top: 2%;
 }
 
-.mr {
-  margin-right: 15%;
+.button:hover .sub-button {
+  background-color: var(--accent);
 }
 
-.mt {
-  margin-top: 5%;
+.arrow {
+  background-color: var(--accent);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.mb {
-  margin-bottom: 10%;
+.button:hover .arrow {
+  background-color: var(--dark);
 }
 
-.component-margin{
-  margin-bottom: 30%;
-}
-
-.icon-m {
-  margin: 8px;
-}
-
-/* Padding styles*/
-
-.padding {
-  padding: 8%;
-}
-
-.pt {
-  padding-top: 9%;
-}
-
-.pr {
-  padding-right: 10%;
-}
-
-.pb {
-  padding-bottom: 10%;
-}
-
-.our-location {
-  width: 240px;
-  height: 80px;
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: bold;
-}
-
-.right-arrow {
-  background-color: #d5966c;
-  height: 80px;
-  width: 68px;
-}
+/* Tablet */
 
 /* Desktop */

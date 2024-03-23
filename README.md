@@ -40,6 +40,11 @@ Users should be able to:
 
 - Split the web page design into three and place in different components
 
+/* MAKE CONCISE CLASSES FOR EACH CONTAINER */
+/* START AT THE TOP, WORK YOUR WAY TO THE BOTTOM */
+/* REFINE EACH COMPONENT ONE AT A TIME */
+/* CHECK RESPON ON PIXEL 7, ULTRA 20, AND GALAXY S9+ AND S8*/
+
 ### Built with
 
 - Semantic HTML5 markup
