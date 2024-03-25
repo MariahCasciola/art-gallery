@@ -3,11 +3,14 @@ import React from "react";
 function YourDay() {
   return (
     <main className="flex column margin-l-r component-margin">
+      {/* mobile image */}
       <img
         className="container-fit"
         src={require("./../assets/mobile/image-grid-1.jpg")}
         alt="Open gallery room"
       ></img>
+      {/* desktop image */}
+      <img  className="container-image hidden" src={require("./../assets/desktop/image-grid-1.jpg")}/>
       <div className="heading m">Your day at the gallery</div>
       <div className="body-p medium-text bs">
         Wander through our distinct collections and find new insights about our

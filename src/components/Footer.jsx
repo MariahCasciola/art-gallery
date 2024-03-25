@@ -11,7 +11,7 @@ function Footer() {
       <div className="">
         <img alt="'Modern Art Gallery' in white" src={lightLogo}></img>
       </div>
-      <div className="light-text body-p">
+      <div className="light-text body-p bs">
         The Modern Art Gallery is free to all visitors and open seven days a
         week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
       </div>

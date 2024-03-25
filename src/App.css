@@ -141,7 +141,7 @@ body {
 
 /* Margin between three main components */
 .component-margin {
-  margin-bottom: 32%;
+  margin-bottom: 8rem;
 }
 
 /* Hover effect */
@@ -171,6 +171,100 @@ body {
   background-color: var(--dark);
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
 /* Tablet */
 
+@media (min-width: 480px) {
+}
+
+@media (min-width: 768px) {
+}
+
 /* Desktop */
+
+@media (min-width: 1201px) {
+  /* Flex styling */
+  .d-flex {
+    display: flex;
+  }
+
+  .d-column {
+    flex-direction: column;
+  }
+
+  .d-row {
+    flex-direction: row;
+  }
+
+  /* Image styling */
+
+  /* hides mobile image and removes it from flex box */
+  /* remember to add back gallery room image */
+  .container-fit {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+  /* makes desktop image visible and creates a responsive dimention */
+  .container-image {
+    visibility: visible;
+    height: auto;
+    width: auto;
+  }
+  /* 
+  height: 80%;
+    width: 80%; */
+
+  /* Header styling */
+
+  .black-box {
+    background-color: black;
+    height: 50rem;
+    width: 25rem;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .margin-l-r {
+    margin: 0;
+  }
+
+  .position-logo {
+    height: 30rem;
+    width: 30rem;
+    left: 9rem;
+    top: 10rem;
+  }
+
+  .margin {
+    margin-bottom: 2rem;
+  }
+
+  .logo-light {
+    z-index: 1;
+  }
+
+  .logo-dark {
+    z-index: 2;
+    clip-path: inset(0% 0% 0% 62.5%);
+  }
+
+  .hidden{
+    visibility: visible;
+  }
+
+  .position {
+    height: 30rem;
+    width: 20rem;
+    left: 55rem;
+    top: 10rem;
+  }
+}
