@@ -187,6 +187,8 @@ body {
 
 /* Desktop */
 
+/* looks good at min-width 1400px */
+
 @media (min-width: 1201px) {
   /* Flex styling */
   .d-flex {
@@ -204,7 +206,6 @@ body {
   /* Image styling */
 
   /* hides mobile image and removes it from flex box */
-  /* remember to add back gallery room image */
   .container-fit {
     visibility: hidden;
     height: 0;
@@ -217,9 +218,6 @@ body {
     height: auto;
     width: auto;
   }
-  /* 
-  height: 80%;
-    width: 80%; */
 
   /* Header styling */
 
@@ -257,7 +255,7 @@ body {
     clip-path: inset(0% 0% 0% 62.5%);
   }
 
-  .hidden{
+  .hidden {
     visibility: visible;
   }
 
@@ -267,4 +265,50 @@ body {
     left: 55rem;
     top: 10rem;
   }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .margin-l-r-d {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .component-margin {
+    margin-bottom: 12rem;
+  }
+
+  .item {
+    flex: 1;
+    /* margin: 3rem; */
+  }
+
+  .section {
+    margin-right: 5rem;
+  }
+
+  /* this is repeated code refactor */
+  .fit {
+    width: 100%;
+    height: 100%;
+  }
+
+  .margin-b {
+    margin-bottom: 2rem;
+  }
+
+  .margin-l{
+    margin-left: 2rem;
+  }
+
+  /* .heading {
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* .body-p {
+    padding: 0;
+    margin: 0;
+  } */
 }

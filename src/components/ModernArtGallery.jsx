@@ -9,7 +9,7 @@ function ModernArtGallery() {
       <div className="d-flex">
         <div className="black-box"></div>
         <img
-          className="container-fit img"
+          className="container-fit"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
           src={require("./../assets/mobile/image-hero.jpg")}
         />
