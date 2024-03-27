@@ -64,7 +64,7 @@ function YourDay() {
             {/* Tablet image */}
             <img
               className="hide-tablet hundred-percent"
-              src={require("./../assets/tablet/image-grid-3.jpg")}
+              src={require("./../assets/tablet/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway"
             />
             {/* Desktop image */}
