@@ -4,7 +4,7 @@ function YourDay() {
   return (
     <main className="flex column margin-l-r component-margin">
       <div className="d-flex row-reverse margin-l-r-d margin-b">
-        <div className="item">
+        <div className="">
           {/* mobile image */}
           <img
             className="container-fit"
@@ -18,7 +18,7 @@ function YourDay() {
           />
         </div>
 
-        <div className="d-flex d-column center item section">
+        <div className="d-flex d-column center section">
           <div className="heading m">Your day at the gallery</div>
           <div className="body-p medium-text bs">
             Wander through our distinct collections and find new insights about
@@ -27,8 +27,8 @@ function YourDay() {
         </div>
       </div>
 
-      <div className="d-flex margin-l-r-d item">
-        <div className="">
+      <div className="d-flex margin-l-r-d">
+        <div className="item-big">
           {/* mobile */}
           <img
             className="img-m container-fit"
@@ -42,7 +42,8 @@ function YourDay() {
             alt="Bench in the gallery"
           />
         </div>
-        <div className="d-flex d-column margin-l">
+
+        <div className="d-flex d-column margin-l item">
           <div className="item margin-b">
             {/* mobile */}
             <img
@@ -57,13 +58,11 @@ function YourDay() {
               alt="Gallery goers standing in a long hallway "
             />
           </div>
-          <div className="dark-background item">
-            <div className="bounding-box">
-              <div className="light-text heading m">Come &amp; be inspired</div>
-              <div className="light-text body-p">
-                We’re excited to welcome you to our gallery and see how our
-                collections influence you.
-              </div>
+          <div className="dark-background item bounding-box">
+            <div className="light-text heading m">Come &amp; be inspired</div>
+            <div className="light-text bs body-p">
+              We’re excited to welcome you to our gallery and see how our
+              collections influence you.
             </div>
           </div>
         </div>
