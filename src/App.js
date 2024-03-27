@@ -6,7 +6,7 @@ import ModernArtGallery from "./components/ModernArtGallery";
 
 function App() {
   return (
-    <div className="flex column space">
+    <div>
       <ModernArtGallery />
       <YourDay />
       <Footer />

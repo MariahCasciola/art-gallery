@@ -8,16 +8,19 @@ function ModernArtGallery() {
     <header className="flex column component-margin d-flex d-row">
       <div className="d-flex">
         <div className="black-box"></div>
+        {/* Mobile image */}
         <img
           className="container-fit hide-mobile"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
           src={require("./../assets/mobile/image-hero@2x.jpg")}
         />
+        {/* Tablet Image */}
         <img
           className="hide-tablet"
           src={require("./../assets/tablet/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />
+        {/* Desktop Image */}
         <img
           className="hidden no-width-no-height hide-mobile"
           src={require("./../assets/desktop/image-hero.jpg")}
