@@ -8,7 +8,7 @@ function YourDay() {
           {/* mobile image */}
           <img
             className="container-fit"
-            src={require("./../assets/mobile/image-grid-1.jpg")}
+            src={require("./../assets/mobile/image-grid-1@2x.jpg")}
             alt="Open gallery room"
           ></img>
           {/* desktop image */}
@@ -32,7 +32,7 @@ function YourDay() {
           {/* mobile */}
           <img
             className="img-m container-fit"
-            src={require("./../assets/mobile/image-grid-2.jpg")}
+            src={require("./../assets/mobile/image-grid-2@2x.jpg")}
             alt="Bench in the gallery"
           ></img>
           {/* desktop */}
@@ -48,7 +48,7 @@ function YourDay() {
             {/* mobile */}
             <img
               className="img-m container-fit"
-              src={require("./../assets/mobile/image-grid-3.jpg")}
+              src={require("./../assets/mobile/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway"
             ></img>
             {/* desktop */}

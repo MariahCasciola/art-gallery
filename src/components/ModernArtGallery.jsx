@@ -11,7 +11,7 @@ function ModernArtGallery() {
         <img
           className="container-fit"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
-          src={require("./../assets/mobile/image-hero.jpg")}
+          src={require("./../assets/mobile/image-hero@2x.jpg")}
         />
         <img
           className="hidden no-width-no-height"
