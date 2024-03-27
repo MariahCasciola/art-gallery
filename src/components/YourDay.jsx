@@ -13,7 +13,7 @@ function YourDay() {
           ></img>
           {/* desktop image */}
           <img
-            className="container-image hidden"
+            className="hidden no-width-no-height"
             src={require("./../assets/desktop/image-grid-1.jpg")}
           />
         </div>
@@ -37,7 +37,7 @@ function YourDay() {
           ></img>
           {/* desktop */}
           <img
-            className="container-image hidden fit"
+            className="hidden no-width-no-height"
             src={require("./../assets/desktop/image-grid-2.jpg")}
             alt="Bench in the gallery"
           />
@@ -53,7 +53,7 @@ function YourDay() {
             ></img>
             {/* desktop */}
             <img
-              className="container-image hidden fit"
+              className="hidden no-width-no-height"
               src={require("./../assets/desktop/image-grid-3.jpg")}
               alt="Gallery goers standing in a long hallway "
             />

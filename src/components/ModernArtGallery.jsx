@@ -14,21 +14,21 @@ function ModernArtGallery() {
           src={require("./../assets/mobile/image-hero.jpg")}
         />
         <img
-          className="container-image hidden"
+          className="hidden no-width-no-height"
           src={require("./../assets/desktop/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />
       </div>
       {/* Modern Art Gallery Black and White*/}
       <div className="d-flex d-row">
-        <div className="flex column margin-l-r absolute position-logo">
+        <div className="flex column margin-l-r position-logo absolute">
           <img
             className="heading logo-dark"
             src={darkLogo}
             alt="Modern Art Gallery"
           />
         </div>
-        <div className="flex column margin-l-r absolute position-logo hidden">
+        <div className="flex column margin-l-r absolute position-logo hidden hide-white-logo">
           <img className="heading logo-light" src={lightLogo} />
         </div>
 
