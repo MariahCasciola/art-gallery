@@ -9,12 +9,17 @@ function ModernArtGallery() {
       <div className="d-flex">
         <div className="black-box"></div>
         <img
-          className="container-fit"
+          className="container-fit hide-mobile"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
           src={require("./../assets/mobile/image-hero@2x.jpg")}
         />
         <img
-          className="hidden no-width-no-height"
+          className="hide-tablet"
+          src={require("./../assets/tablet/image-hero.jpg")}
+          alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
+        />
+        <img
+          className="hidden no-width-no-height hide-mobile"
           src={require("./../assets/desktop/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />

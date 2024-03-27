@@ -34,6 +34,12 @@ body {
   width: 0;
 }
 
+.hide-tablet {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
 /* Color variables used in classes */
 
 .dark-background {
@@ -136,6 +142,8 @@ body {
   line-height: 1.75rem;
 }
 
+/* NEXT ORDER OF BUSINESS, FIX THE FLEX BOX SITUATION */
+
 /* Flex properties */
 .flex {
   display: flex;
@@ -196,17 +204,92 @@ body {
   padding: 2rem;
 }
 
+/* REMEMBER TO ADD TABLET IMAGES TO HTML */
 /* Tablet */
-
-@media (min-width: 480px) {
-}
-
 @media (min-width: 768px) {
+  /* Flex styling */
+  .d-flex {
+    display: flex;
+  }
+
+  .d-column {
+    flex-direction: column;
+  }
+
+  .d-row {
+    flex-direction: row;
+  }
+
+  /* make into an inset square instead of a div */
+  .black-box {
+    background-color: black;
+    height: 50rem;
+    width: 15rem;
+    float: left;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .position {
+    height: 30rem;
+    width: 20rem;
+    left: 40rem;
+    top: 10.5rem;
+  }
+
+  .container-fit {
+    height: 80%;
+    width: 80%;
+  }
+
+  .no-width-no-height {
+    width: auto;
+    height: auto;
+  }
+
+  .hide-mobile {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
+  .hide-tablet {
+    visibility: visible;
+    width: auto;
+    height: auto;
+  }
+
+  .position-logo {
+    height: 30rem;
+    width: 30rem;
+    left: 0rem;
+    top: 10rem;
+  }
+
+  .hide-white-logo {
+    visibility: visible;
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .logo-light {
+    z-index: 1;
+  }
+
+  .logo-dark {
+    z-index: 2;
+    clip-path: inset(0% 0% 0% 50.5%);
+  }
 }
 
 /* Desktop */
-
-/* looks good at min-width 1400px */
 
 @media (min-width: 1400px) {
   /* Flex styling */
@@ -222,15 +305,11 @@ body {
     flex-direction: row;
   }
 
-  /* Image styling */
-
-/* Hides mobile images from desktop view */
+  /* Hides mobile images from desktop view */
   .container-fit {
     height: 0;
     width: 0;
   }
-
-  /* Header styling */
 
   /* make into an inset square instead of a div */
   .black-box {
@@ -322,6 +401,12 @@ body {
   .no-width-no-height {
     width: auto;
     height: auto;
+  }
+
+  .hide-tablet {
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
 
   .margin-b {
