@@ -21,8 +21,17 @@ body {
 
 /* HIDING STUFF */
 
-/* Hides desktop and tablet images from mobile view */
-.hide-desktop {
+.mobile {
+  display: block;
+  visibility: visible;
+}
+
+.tablet {
+  display: none;
+  visibility: hidden;
+}
+
+.desktop {
   display: none;
   visibility: hidden;
 }
@@ -31,13 +40,6 @@ body {
 .hide-white-logo {
   height: 0;
   width: 0;
-}
-
-/* Overridden in later queries */
-.hide-tablet {
-  visibility: hidden;
-  width: 0;
-  height: 0;
 }
 
 /* Color variables used in classes */
@@ -228,16 +230,21 @@ body {
     top: 10.5rem;
   }
 
-  .hide-mobile {
+  /* Hidden while in mobile visible in tablet */
+
+  .mobile {
+    display: none;
     visibility: hidden;
-    width: 0;
-    height: 0;
   }
 
-  .hide-tablet {
+  .tablet {
+    display: block;
     visibility: visible;
-    height: 100%;
-    width: 100%;
+  }
+
+  .desktop {
+    display: none;
+    visibility: hidden;
   }
 
   .position-logo {
@@ -248,9 +255,6 @@ body {
   }
 
   .hide-white-logo {
-    visibility: visible;
-    height: 30rem;
-    width: 30rem;
   }
 
   .logo-light {
@@ -289,12 +293,7 @@ body {
     flex: 1;
     margin-left: 1rem;
   }
-
-  .hundred-percent {
-    height: 100%;
-    width: 100%;
-  }
-
+  
   /* Come and be inspired section */
   .bounding-box {
     padding: 2rem;
@@ -355,7 +354,19 @@ body {
     clip-path: inset(0% 0% 0% 62.5%);
   }
 
-  .hide-desktop {
+  /* Makes desktop images visible */
+
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .tablet {
+    display: none;
+    visibility: hidden;
+  }
+
+  .desktop {
     display: flex;
     visibility: visible;
   }
@@ -397,18 +408,6 @@ body {
 
   .section {
     margin-right: 10rem;
-  }
-
-  /*For header photo*/
-  .no-width-no-height {
-    width: auto;
-    height: auto;
-  }
-
-  .hide-tablet {
-    visibility: hidden;
-    width: 0;
-    height: 0;
   }
 
   .margin-l {

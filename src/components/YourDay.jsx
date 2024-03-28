@@ -6,19 +6,19 @@ function YourDay() {
       <div className="d-flex row-reverse margin-l-r-d margin-b">
         {/* Mobile image */}
         <img
-          className="container-fit hide-mobile"
+          className="mobile container-fit"
           src={require("./../assets/mobile/image-grid-1@2x.jpg")}
           alt="Open gallery room"
         ></img>
         {/* Tablet image */}
         <img
-          className="hide-tablet"
+          className="tablet container-fit"
           src={require("./../assets/tablet/image-grid-1.jpg")}
           alt=""
         />
         {/* Desktop image */}
         <img
-          className="hide-desktop no-width-no-height hide-mobile"
+          className="desktop container-fit"
           src={require("./../assets/desktop/image-grid-1.jpg")}
         />
 
@@ -35,19 +35,19 @@ function YourDay() {
         <div className="item1">
           {/* Mobile image */}
           <img
-            className="img-m container-fit hide-mobile"
+            className="img-m mobile container-fit"
             src={require("./../assets/mobile/image-grid-2@2x.jpg")}
             alt="Bench in the gallery"
           ></img>
           {/* Tablet image */}
           <img
-            className="hide-tablet"
+            className="tablet container-fit"
             src={require("./../assets/tablet/image-grid-2.jpg")}
             alt="Bench in the gallery"
           />
           {/* Desktop image */}
           <img
-            className="container-fit hide-desktop no-width-no-height hide-mobile"
+            className="desktop container-fit"
             src={require("./../assets/desktop/image-grid-2.jpg")}
             alt="Bench in the gallery"
           />
@@ -57,19 +57,19 @@ function YourDay() {
           <div className="margin-b item1">
             {/* Mobile image */}
             <img
-              className="img-m container-fit hide-mobile"
+              className="img-m mobile container-fit"
               src={require("./../assets/mobile/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway"
             ></img>
             {/* Tablet image */}
             <img
-              className="hide-tablet hundred-percent"
+              className="tablet container-fit"
               src={require("./../assets/tablet/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway"
             />
             {/* Desktop image */}
             <img
-              className="hide-desktop hide-mobile hundred-percent"
+              className="desktop container-fit"
               src={require("./../assets/desktop/image-grid-3.jpg")}
               alt="Gallery goers standing in a long hallway "
             />
