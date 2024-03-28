@@ -23,13 +23,17 @@ function Footer() {
         </div>
 
         <div className="flex item social-logos-container">
-          <img className="social-logo" alt="Facebook icon" src={iconFacebook}></img>
+          <img
+            className="social-logo"
+            alt="Facebook icon"
+            src={iconFacebook}
+          ></img>
           <img
             className="social-logo"
             alt="Instagram icon"
             src={iconInstagram}
           />
-          <img className="social-logo" alt="Twitter icon" src={iconTwitter}/>
+          <img className="social-logo" alt="Twitter icon" src={iconTwitter} />
         </div>
       </div>
     </footer>
