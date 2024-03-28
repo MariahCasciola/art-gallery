@@ -18,7 +18,7 @@ function YourDay() {
         />
         {/* Desktop image */}
         <img
-          className="hidden no-width-no-height hide-mobile"
+          className="hide-desktop no-width-no-height hide-mobile"
           src={require("./../assets/desktop/image-grid-1.jpg")}
         />
 
@@ -32,7 +32,7 @@ function YourDay() {
       </div>
 
       <div className="d-flex margin-l-r-d">
-        <div className="item-big">
+        <div className="item1">
           {/* Mobile image */}
           <img
             className="img-m container-fit hide-mobile"
@@ -41,20 +41,20 @@ function YourDay() {
           ></img>
           {/* Tablet image */}
           <img
-            className="hide-tablet no-width-no-height hundred-percent"
+            className="hide-tablet"
             src={require("./../assets/tablet/image-grid-2.jpg")}
-            alt=""
+            alt="Bench in the gallery"
           />
           {/* Desktop image */}
           <img
-            className="hidden no-width-no-height hide-mobile"
+            className="container-fit hide-desktop no-width-no-height hide-mobile"
             src={require("./../assets/desktop/image-grid-2.jpg")}
             alt="Bench in the gallery"
           />
         </div>
 
         <div className="d-flex d-column margin-l item">
-          <div className="margin-b item-small">
+          <div className="margin-b item1">
             {/* Mobile image */}
             <img
               className="img-m container-fit hide-mobile"
@@ -69,12 +69,12 @@ function YourDay() {
             />
             {/* Desktop image */}
             <img
-              className="hidden no-width-no-height hide-mobile"
+              className="hide-desktop hide-mobile hundred-percent"
               src={require("./../assets/desktop/image-grid-3.jpg")}
               alt="Gallery goers standing in a long hallway "
             />
           </div>
-          <div className="dark-background bounding-box item-small">
+          <div className="dark-background bounding-box item1">
             <div className="light-text heading m">Come &amp; be inspired</div>
             <div className="light-text bs body-p">
               We’re excited to welcome you to our gallery and see how our

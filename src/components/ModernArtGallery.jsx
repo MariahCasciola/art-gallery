@@ -22,7 +22,7 @@ function ModernArtGallery() {
         />
         {/* Desktop Image */}
         <img
-          className="hidden no-width-no-height hide-mobile"
+          className="hide-desktop no-width-no-height hide-mobile"
           src={require("./../assets/desktop/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />
@@ -36,7 +36,7 @@ function ModernArtGallery() {
             alt="Modern Art Gallery"
           />
         </div>
-        <div className="flex column margin-l-r absolute position-logo hidden hide-white-logo">
+        <div className="flex column margin-l-r absolute position-logo hide-desktop hide-white-logo">
           <img className="heading logo-light" src={lightLogo} />
         </div>
 
