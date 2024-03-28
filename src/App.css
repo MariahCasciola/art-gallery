@@ -254,16 +254,13 @@ body {
     top: 10rem;
   }
 
-  .hide-white-logo {
-  }
-
   .logo-light {
     z-index: 1;
   }
 
   .logo-dark {
     z-index: 2;
-    clip-path: inset(0% 0% 0% 50.5%);
+    clip-path: inset(0% 0% 0% 33%);
   }
 
   .margin-l-r-d {
@@ -293,10 +290,10 @@ body {
     flex: 1;
     margin-left: 1rem;
   }
-  
+
   /* Come and be inspired section */
   .bounding-box {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   /* Footer */
@@ -341,9 +338,6 @@ body {
   .margin {
     margin-bottom: 2rem;
   }
-
-  /* clip-path: inset(0% 0% 0% 0%); */
-  /* clip-path: inset(0rem 1rem 0rem 0rem); */
 
   .logo-light {
     z-index: 1;
@@ -414,8 +408,4 @@ body {
     margin-left: 1rem;
   }
 
-  /* Come and be inspired section */
-  .bounding-box {
-    padding: 4rem;
-  }
 }
