@@ -10,19 +10,19 @@ function ModernArtGallery() {
         <div className="black-box"></div>
         {/* Mobile image */}
         <img
-          className="container-fit hide-mobile"
+          className="mobile container-fit"
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
           src={require("./../assets/mobile/image-hero@2x.jpg")}
         />
         {/* Tablet Image */}
         <img
-          className="hide-tablet"
+          className="tablet container-fit"
           src={require("./../assets/tablet/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />
         {/* Desktop Image */}
         <img
-          className="hide-desktop no-width-no-height hide-mobile"
+          className="desktop"
           src={require("./../assets/desktop/image-hero.jpg")}
           alt="Two gallery goers walking in front of drawing of an old woman with round glasses"
         />
@@ -36,7 +36,7 @@ function ModernArtGallery() {
             alt="Modern Art Gallery"
           />
         </div>
-        <div className="flex column margin-l-r absolute position-logo hide-desktop hide-white-logo">
+        <div className="flex column margin-l-r absolute position-logo hide-white-logo">
           <img className="heading logo-light" src={lightLogo} />
         </div>
 

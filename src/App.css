@@ -21,8 +21,17 @@ body {
 
 /* HIDING STUFF */
 
-/* Hides desktop and tablet images from mobile view */
-.hide-desktop {
+.mobile {
+  display: block;
+  visibility: visible;
+}
+
+.tablet {
+  display: none;
+  visibility: hidden;
+}
+
+.desktop {
   display: none;
   visibility: hidden;
 }
@@ -31,13 +40,6 @@ body {
 .hide-white-logo {
   height: 0;
   width: 0;
-}
-
-/* Overridden in later queries */
-.hide-tablet {
-  visibility: hidden;
-  width: 0;
-  height: 0;
 }
 
 /* Color variables used in classes */
@@ -228,16 +230,21 @@ body {
     top: 10.5rem;
   }
 
-  .hide-mobile {
+  /* Hidden while in mobile visible in tablet */
+
+  .mobile {
+    display: none;
     visibility: hidden;
-    width: 0;
-    height: 0;
   }
 
-  .hide-tablet {
+  .tablet {
+    display: block;
     visibility: visible;
-    height: 100%;
-    width: 100%;
+  }
+
+  .desktop {
+    display: none;
+    visibility: hidden;
   }
 
   .position-logo {
@@ -247,19 +254,13 @@ body {
     top: 10rem;
   }
 
-  .hide-white-logo {
-    visibility: visible;
-    height: 30rem;
-    width: 30rem;
-  }
-
   .logo-light {
     z-index: 1;
   }
 
   .logo-dark {
     z-index: 2;
-    clip-path: inset(0% 0% 0% 50.5%);
+    clip-path: inset(0% 0% 0% 33%);
   }
 
   .margin-l-r-d {
@@ -290,14 +291,9 @@ body {
     margin-left: 1rem;
   }
 
-  .hundred-percent {
-    height: 100%;
-    width: 100%;
-  }
-
   /* Come and be inspired section */
   .bounding-box {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   /* Footer */
@@ -343,9 +339,6 @@ body {
     margin-bottom: 2rem;
   }
 
-  /* clip-path: inset(0% 0% 0% 0%); */
-  /* clip-path: inset(0rem 1rem 0rem 0rem); */
-
   .logo-light {
     z-index: 1;
   }
@@ -355,7 +348,19 @@ body {
     clip-path: inset(0% 0% 0% 62.5%);
   }
 
-  .hide-desktop {
+  /* Makes desktop images visible */
+
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .tablet {
+    display: none;
+    visibility: hidden;
+  }
+
+  .desktop {
     display: flex;
     visibility: visible;
   }
@@ -399,24 +404,8 @@ body {
     margin-right: 10rem;
   }
 
-  /*For header photo*/
-  .no-width-no-height {
-    width: auto;
-    height: auto;
-  }
-
-  .hide-tablet {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
-
   .margin-l {
     margin-left: 1rem;
   }
 
-  /* Come and be inspired section */
-  .bounding-box {
-    padding: 4rem;
-  }
 }
