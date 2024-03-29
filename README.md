@@ -17,32 +17,34 @@
 
 ### The challenge
 
-Users should be able to:
-
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
-- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ### Screenshot
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
-- Used React to break up the process into a more digestible format for a single page
+- Used React to break up the process into a more digestible format, header, main, and footer.
 
-- Place assets folder in src folder so they can be accessed in components via file paths
+- Placed assets folder in src folder so they can be accessed in components via file paths
 
-- Create a skeleton with all of the required text and image links
+- Create a skeleton with all of the required text and image links.
 
-- Split the web page design into three and place in different components
+- Styled mobile view, tablet view, and desktop view in that order.
+
+- Identified flex box and flex directions in mobile before tackling flex box before designing tablet and desktop boxes and directions.
+
+- Created reusable well named classes in order to create a more clean and dry stylesheet.
+
+- When styling I started at the top of the page and worked my way down the document, checking responsiveness with every new class and property.
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Google Font API
 - Flexbox
@@ -62,14 +64,9 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-A shopping cart for Art Gallery tickets.
 
 ## Author
 
-- Website - [Add your name here]()
-- Frontend Mentor - [@yourusername]()
-- Twitter - [@yourusername]()
+- Website - [Mariah Casciola]()
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

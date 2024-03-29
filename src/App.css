@@ -19,8 +19,6 @@ body {
   width: 100%;
 }
 
-/* HIDING STUFF */
-
 .mobile {
   display: block;
   visibility: visible;
@@ -36,7 +34,6 @@ body {
   visibility: hidden;
 }
 
-/* Overridden with a measured height and width in desktop view*/
 .hide-white-logo {
   height: 0;
   width: 0;
@@ -74,24 +71,24 @@ body {
 
 .heading {
   font-family: "Shoulders", sans-serif;
-  margin-top: 9%;
-  margin-right: 15%;
-  margin-bottom: 3%;
+  padding-top: 9%;
+  padding-right: 15%;
+  padding-bottom: 3%;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 
-.img-m {
-  margin-bottom: 5%;
+.img-p {
+  padding-bottom: 5%;
 }
 
 .social-logo {
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 .social-logos-container {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Come and be inspired section */
@@ -144,8 +141,8 @@ body {
 
 /* Left and right of page borders*/
 .margin-l-r {
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* Margin between three main components */
@@ -163,7 +160,10 @@ body {
   font-size: 1.313rem;
   letter-spacing: 0.25rem;
   font-family: "Shoulders-Extra-Bold", sans-serif;
-  margin-top: 2%;
+}
+
+.button {
+  cursor: pointer;
 }
 
 .button:hover .sub-button {
@@ -206,15 +206,6 @@ body {
     flex-direction: row;
   }
 
-  /* make into an inset square instead of a div */
-  .black-box {
-    background-color: black;
-    height: 50rem;
-    width: 15rem;
-    float: left;
-    shape-outside: inset(20px 50px 10px 0 round 50px);
-  }
-
   .row-reverse {
     flex-direction: row-reverse;
   }
@@ -230,21 +221,13 @@ body {
     top: 10.5rem;
   }
 
-  /* Hidden while in mobile visible in tablet */
-
-  .mobile {
-    display: none;
-    visibility: hidden;
-  }
-
-  .tablet {
-    display: block;
-    visibility: visible;
-  }
-
-  .desktop {
-    display: none;
-    visibility: hidden;
+  /* make into an inset square instead of a div */
+  .black-box {
+    background-color: black;
+    height: 50rem;
+    width: 15rem;
+    float: left;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
   }
 
   .position-logo {
@@ -263,14 +246,27 @@ body {
     clip-path: inset(0% 0% 0% 33%);
   }
 
+  .mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .tablet {
+    display: block;
+    visibility: visible;
+  }
+
+  .desktop {
+    display: none;
+    visibility: hidden;
+  }
+
   .margin-l-r-d {
     margin: 0;
   }
 
-  .margin-b {
-    margin-bottom: 2rem;
-    height: auto;
-    width: auto;
+  .padding-b {
+    padding-bottom: 2rem;
   }
 
   .heading {
@@ -279,7 +275,7 @@ body {
 
   /* Your day at the gallery section */
   .section {
-    margin-right: 8rem;
+    padding-right: 8rem;
   }
 
   .item {
@@ -288,7 +284,10 @@ body {
 
   .item1 {
     flex: 1;
-    margin-left: 1rem;
+  }
+
+  .padding-r {
+    padding-right: 1rem;
   }
 
   /* Come and be inspired section */
@@ -299,8 +298,8 @@ body {
   /* Footer */
 
   .social-logos-container {
-    margin-top: 5rem;
-    margin-bottom: 12rem;
+    padding-top: 5rem;
+    padding-bottom: 12rem;
     justify-content: flex-end;
   }
 
@@ -309,7 +308,7 @@ body {
   }
 
   .footer-logo {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     height: 3rem;
   }
 }
@@ -335,10 +334,6 @@ body {
     top: 10rem;
   }
 
-  .margin {
-    margin-bottom: 2rem;
-  }
-
   .logo-light {
     z-index: 1;
   }
@@ -347,8 +342,6 @@ body {
     z-index: 2;
     clip-path: inset(0% 0% 0% 62.5%);
   }
-
-  /* Makes desktop images visible */
 
   .mobile {
     display: none;
@@ -374,17 +367,6 @@ body {
     left: 55rem;
   }
 
-  .sub-button {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-size: 1.313rem;
-    letter-spacing: 0.25rem;
-    font-family: "Shoulders-Extra-Bold", sans-serif;
-    margin-top: 2%;
-  }
-
   .margin-l-r-d {
     margin-left: 8rem;
     margin-right: 8rem;
@@ -400,12 +382,7 @@ body {
     flex-basis: 40rem;
   }
 
-  .section {
-    margin-right: 10rem;
+  .padding-l {
+    padding-left: 1rem;
   }
-
-  .margin-l {
-    margin-left: 1rem;
-  }
-
 }

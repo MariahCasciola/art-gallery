@@ -3,23 +3,24 @@ import React from "react";
 function YourDay() {
   return (
     <main className="flex column margin-l-r component-margin">
-      <div className="d-flex row-reverse margin-l-r-d margin-b">
+      <div className="d-flex row-reverse margin-l-r-d padding-b">
         {/* Mobile image */}
         <img
           className="mobile container-fit"
           src={require("./../assets/mobile/image-grid-1@2x.jpg")}
           alt="Open gallery room"
-        ></img>
+        />
         {/* Tablet image */}
         <img
           className="tablet container-fit"
           src={require("./../assets/tablet/image-grid-1.jpg")}
-          alt=""
+          alt="Open gallery room"
         />
         {/* Desktop image */}
         <img
           className="desktop container-fit"
           src={require("./../assets/desktop/image-grid-1.jpg")}
+          alt="Open gallery room"
         />
 
         <div className="d-flex d-column center section">
@@ -32,10 +33,10 @@ function YourDay() {
       </div>
 
       <div className="d-flex margin-l-r-d">
-        <div className="item1">
+        <div className="item1 padding-r">
           {/* Mobile image */}
           <img
-            className="img-m mobile container-fit"
+            className="img-p mobile container-fit"
             src={require("./../assets/mobile/image-grid-2@2x.jpg")}
             alt="Bench in the gallery"
           ></img>
@@ -53,11 +54,11 @@ function YourDay() {
           />
         </div>
 
-        <div className="d-flex d-column margin-l item">
-          <div className="margin-b item1">
+        <div className="d-flex d-column padding-l item">
+          <div className="item1 padding-b">
             {/* Mobile image */}
             <img
-              className="img-m mobile container-fit"
+              className="img-p mobile container-fit"
               src={require("./../assets/mobile/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway"
             ></img>
