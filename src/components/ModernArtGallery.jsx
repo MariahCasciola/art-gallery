@@ -5,8 +5,8 @@ import iconArrowRight from "./../assets/icon-arrow-right.svg";
 
 function ModernArtGallery() {
   return (
-    <header className="flex column component-margin d-flex d-row">
-      <div className="d-flex">
+    <header className="flex column component-margin d-row">
+      <div className="flex column">
         <div className="black-box"></div>
         {/* Mobile image */}
         <img
@@ -28,7 +28,7 @@ function ModernArtGallery() {
         />
       </div>
       {/* Modern Art Gallery Black and White*/}
-      <div className="d-flex d-row">
+      <div className="flex column">
         <div className="flex column margin-l-r position-logo absolute">
           <img
             className="heading logo-dark"
@@ -44,7 +44,7 @@ function ModernArtGallery() {
           />
         </div>
 
-        <div className="d-flex d-column absolute position">
+        <div className="flex column absolute position">
           <div className="flex column margin-l-r padding-b">
             <div className="medium-text bs body-p">
               The arts in the collection of the Modern Art Gallery all started
@@ -58,7 +58,7 @@ function ModernArtGallery() {
                 OUR LOCATION
               </div>
               <div className="flex center sub-button arrow">
-                <img alt="Arrow pointing right" src={iconArrowRight}/>
+                <img alt="Arrow pointing right" src={iconArrowRight} />
               </div>
             </div>
           </div>

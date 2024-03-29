@@ -8,8 +8,8 @@ function Footer() {
   return (
     <footer className="dark-background footer">
       {/* Modern Art Gallery White */}
-      <div className="d-flex">
-        <div className="d-flex center item">
+      <div className="flex column">
+        <div className="flex item">
           <img
             className="footer-logo"
             alt="'Modern Art Gallery' in white"
