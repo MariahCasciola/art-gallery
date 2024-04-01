@@ -78,6 +78,13 @@ body {
   letter-spacing: 0.05rem;
 }
 
+.heading-logo{
+  padding-top: 10%;
+  padding-right: 10%;
+  height: 8rem;
+  width: 20rem;
+}
+
 .img-p {
   padding-bottom: 5%;
 }
@@ -195,12 +202,12 @@ body {
 @media (min-width: 900px) {
   /* Flex styling */
 
-  .d-column {
-    flex-direction: column;
+  .column {
+    flex-direction: row;
   }
 
-  .d-row {
-    flex-direction: row;
+  .row {
+    flex-direction: column;
   }
 
   .row-reverse {
@@ -269,6 +276,13 @@ body {
   .heading {
     margin-top: 0;
   }
+
+  .heading-logo{
+  padding-top: 10%;
+  padding-right: 10%;
+  height: 10rem;
+  width: 80rem;
+}
 
   /* Your day at the gallery section */
   .section {

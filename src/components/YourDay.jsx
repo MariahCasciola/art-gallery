@@ -23,7 +23,7 @@ function YourDay() {
           alt="Open gallery room"
         />
 
-        <div className="flex column center section">
+        <div className="flex column section">
           <div className="heading m">Your day at the gallery</div>
           <div className="body-p medium-text bs">
             Wander through our distinct collections and find new insights about

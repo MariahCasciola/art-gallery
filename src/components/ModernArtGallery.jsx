@@ -31,14 +31,14 @@ function ModernArtGallery() {
       <div className="flex column">
         <div className="flex column margin-l-r position-logo absolute">
           <img
-            className="heading logo-dark"
+            className="heading-logo logo-dark"
             src={darkLogo}
             alt="Modern Art Gallery"
           />
         </div>
         <div className="flex column margin-l-r absolute position-logo hide-white-logo">
           <img
-            className="heading logo-light"
+            className="heading-logo logo-light"
             src={lightLogo}
             alt="Modern Art Gallery"
           />
