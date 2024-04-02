@@ -169,6 +169,7 @@ body {
 
 .button {
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .button:hover .sub-button {
@@ -290,11 +291,7 @@ body {
   }
 
   .item {
-    flex: 1;
-  }
-
-  .item1 {
-    flex: 1;
+    flex: 1 1;
   }
 
   .padding-r {
@@ -383,12 +380,6 @@ body {
 
   .component-padding {
     padding-bottom: 12rem;
-  }
-
-  .item-big {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 40rem;
   }
 }
 

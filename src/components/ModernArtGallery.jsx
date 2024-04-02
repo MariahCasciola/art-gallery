@@ -57,7 +57,7 @@ function ModernArtGallery() {
             <div className="flex row">
               <div className="flex button">
                 <div className="flex center dark-background light-text sub-button">
-                  OUR LOCATION
+                  Our Location
                 </div>
                 <div className="flex center sub-button arrow">
                   <img alt="Arrow pointing right" src={iconArrowRight} />

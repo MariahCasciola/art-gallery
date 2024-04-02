@@ -33,7 +33,7 @@ function YourDay() {
       </div>
 
       <div className="flex column o-row padding-l-r-d">
-        <div className="item1 padding-r">
+        <div className="item padding-r">
           {/* Mobile image */}
           <img
             className="img-p mobile container-fit"
@@ -55,7 +55,7 @@ function YourDay() {
         </div>
 
         <div className="flex column padding-l item">
-          <div className="item1 padding-b">
+          <div className="padding-b item">
             {/* Mobile image */}
             <img
               className="img-p mobile container-fit"
@@ -71,11 +71,12 @@ function YourDay() {
             {/* Desktop image */}
             <img
               className="desktop container-fit"
-              src={require("./../assets/desktop/image-grid-3.jpg")}
+              src={require("./../assets/desktop/image-grid-3@2x.jpg")}
               alt="Gallery goers standing in a long hallway "
             />
           </div>
-          <div className="dark-background bounding-box item1">
+
+          <div className="flex column center dark-background bounding-box item">
             <div className="light-text heading m">Come &amp; be inspired</div>
             <div className="light-text bs body-p">
               We’re excited to welcome you to our gallery and see how our
