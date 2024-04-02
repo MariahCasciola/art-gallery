@@ -8,8 +8,8 @@ function Footer() {
   return (
     <footer className="dark-background footer">
       {/* Modern Art Gallery White */}
-      <div className="flex column">
-        <div className="flex item">
+      <div className="flex column o-row">
+        <div className="flex row item o-center">
           <img
             className="footer-logo"
             alt="'Modern Art Gallery' in white"
@@ -17,12 +17,12 @@ function Footer() {
           ></img>
         </div>
 
-        <div className="light-text body-p bs item">
+        <div className="flex light-text body-p bs item o-center">
           The Modern Art Gallery is free to all visitors and open seven days a
           week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
         </div>
 
-        <div className="flex item social-logos-container">
+        <div className="flex item social-logos-container o-center">
           <img
             className="social-logo"
             alt="Facebook icon"

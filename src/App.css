@@ -78,11 +78,9 @@ body {
   letter-spacing: 0.05rem;
 }
 
-.heading-logo{
+.heading-logo {
   padding-top: 10%;
   padding-right: 10%;
-  height: 8rem;
-  width: 20rem;
 }
 
 .img-p {
@@ -111,7 +109,7 @@ body {
   font-weight: 350;
   letter-spacing: 0.063rem;
   padding-top: 7%;
-  padding-bottom: 8%;
+  padding-bottom: 7%;
 }
 
 /* Shoulders Font size and line height listed in Figma Design System (medium) */
@@ -147,14 +145,14 @@ body {
 }
 
 /* Left and right of page borders*/
-.margin-l-r {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.padding-l-r {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* Margin between three main components */
-.component-margin {
-  margin-bottom: 8rem;
+.component-padding {
+  padding-bottom: 8rem;
 }
 
 /* Hover effect */
@@ -193,21 +191,23 @@ body {
   padding: 2rem;
 }
 
-.start {
-  justify-content: flex-start;
-}
-
 /* Tablet */
 
 @media (min-width: 900px) {
   /* Flex styling */
 
-  .column {
+  /* overide row and column */
+  .o-column {
+    flex-direction: column;
+  }
+
+  .o-row {
     flex-direction: row;
   }
 
-  .row {
-    flex-direction: column;
+  .o-center {
+    justify-content: center;
+    align-items: center;
   }
 
   .row-reverse {
@@ -237,7 +237,7 @@ body {
   .position-logo {
     height: 30rem;
     width: 30rem;
-    left: 0rem;
+    left: 2rem;
     top: 10rem;
   }
 
@@ -265,28 +265,28 @@ body {
     visibility: hidden;
   }
 
-  .margin-l-r-d {
-    margin: 0;
-  }
-
   .padding-b {
     padding-bottom: 2rem;
   }
 
-  .heading {
-    margin-top: 0;
+  .padding-l {
+    padding-left: 1rem;
   }
 
-  .heading-logo{
-  padding-top: 10%;
-  padding-right: 10%;
-  height: 10rem;
-  width: 80rem;
-}
+  .heading {
+    padding: 0;
+  }
+
+  .heading-logo {
+    padding-top: 10%;
+    padding-right: 2rem;
+    height: 10rem;
+    width: 30rem;
+  }
 
   /* Your day at the gallery section */
   .section {
-    padding-right: 8rem;
+    margin-right: 10rem;
   }
 
   .item {
@@ -308,19 +308,17 @@ body {
 
   /* Footer */
 
-  .social-logos-container {
-    padding-top: 5rem;
-    padding-bottom: 12rem;
-    justify-content: flex-end;
-  }
-
   .footer {
-    padding-bottom: auto;
+    padding: 0;
   }
 
   .footer-logo {
     padding-bottom: 4rem;
     height: 3rem;
+  }
+
+  .social-logos-container {
+    padding-bottom: 8rem;
   }
 }
 
@@ -334,8 +332,8 @@ body {
     width: 25rem;
   }
 
-  .margin-l-r {
-    margin: 0;
+  .padding-l-r {
+    padding: 0;
   }
 
   .position-logo {
@@ -378,13 +376,13 @@ body {
     left: 55rem;
   }
 
-  .margin-l-r-d {
-    margin-left: 8rem;
-    margin-right: 8rem;
+  .padding-l-r-d {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
-  .component-margin {
-    margin-bottom: 12rem;
+  .component-padding {
+    padding-bottom: 12rem;
   }
 
   .item-big {
@@ -392,8 +390,18 @@ body {
     flex-shrink: 1;
     flex-basis: 40rem;
   }
+}
 
-  .padding-l {
-    padding-left: 1rem;
+@media (min-width: 2000px) {
+  .padding-l-r {
+    padding: 0;
+  }
+
+  .padding-l-r-d {
+    padding-left: 30rem;
+    padding-right: 30rem;
+  }
+  .component-padding {
+    padding-bottom: 10rem;
   }
 }

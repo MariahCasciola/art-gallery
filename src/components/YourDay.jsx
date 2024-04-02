@@ -2,8 +2,8 @@ import React from "react";
 
 function YourDay() {
   return (
-    <main className="flex column margin-l-r component-margin">
-      <div className="flex column row-reverse margin-l-r-d padding-b">
+    <main className="flex column padding-l-r component-padding">
+      <div className="flex column row-reverse padding-l-r-d padding-b">
         {/* Mobile image */}
         <img
           className="mobile container-fit"
@@ -23,7 +23,7 @@ function YourDay() {
           alt="Open gallery room"
         />
 
-        <div className="flex column section">
+        <div className="flex column o-center section">
           <div className="heading m">Your day at the gallery</div>
           <div className="body-p medium-text bs">
             Wander through our distinct collections and find new insights about
@@ -32,7 +32,7 @@ function YourDay() {
         </div>
       </div>
 
-      <div className="flex column margin-l-r-d">
+      <div className="flex column o-row padding-l-r-d">
         <div className="item1 padding-r">
           {/* Mobile image */}
           <img

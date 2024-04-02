@@ -1,4 +1,4 @@
-# Frontend Mentor - Art gallery website solution
+# Art gallery
 
 ## Table of contents
 
@@ -12,8 +12,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -24,23 +22,21 @@
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/](https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/)
 
 ## My process
 
-- Used React to break up the process into a more digestible format, header, main, and footer.
+- Used React to break up the page into a digestible format for future developement and for more modular development.
 
-- Placed assets folder in src folder so they can be accessed in components via file paths
+- Created a skeleton with all of the required text and image links.
 
-- Create a skeleton with all of the required text and image links.
-
-- Styled mobile view, tablet view, and desktop view in that order.
+- Styled mobile view, tablet view, and desktop view in that order, checking that the previous view was not broken by the next created view.
 
 - Identified flex box and flex directions in mobile before tackling flex box before designing tablet and desktop boxes and directions.
 
 - Created reusable well named classes in order to create a more clean and dry stylesheet.
 
-- When styling I started at the top of the page and worked my way down the document, checking responsiveness with every new class and property.
+- When styling each viewpoint I started at the top of the page and worked my way down the document, checking responsiveness with every new class and property.
 
 ### Built with
 
@@ -48,25 +44,19 @@
 - CSS custom properties
 - Google Font API
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-- Learned about SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality.
+- SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality.
 
-- Learned how to use @font-face property in CSS for .ttf files
+- How to incorporate mulitple images at different viewpoints while learning how to hide them and remove them from flex box layouts
 
-- Learned about the clip-path property
+- How to use @font-face property in CSS for .ttf files
 
-- Learned about the z-index property
+- About the clip-path property and z-index property
 
 ### Continued development
 
--A shopping cart for Art Gallery tickets.
-
-## Author
-
-- Website - [Mariah Casciola]()
-
+- A shopping cart for Art Gallery tickets
