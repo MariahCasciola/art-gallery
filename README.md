@@ -20,6 +20,22 @@
 
 ### Screenshot
 
+- Mobile
+
+![Mobile image 1](./web-view/mobile-1.png)
+![Mobile image 2](./web-view/mobile-2.png)
+![Mobile image 3](./web-view/mobile-3.png)
+
+- Tablet
+
+![Tablet image 1](./web-view/tablet-1.png)
+![Tablet image 2](./web-view/tablet-2.png)
+
+- Desktop
+![Desktop image 1](./web-view/desktop-1.png)
+![Desktop image 2](./web-view/desktop-2.png)
+![Desktop image 3](./web-view/desktop-3.png)
+
 ### Links
 
 - Live Site URL: [https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/](https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/)
@@ -27,8 +43,6 @@
 ## My process
 
 - Used React to break up the page into a digestible format for future developement and for more modular development.
-
-- Created a skeleton with all of the required text and image links.
 
 - Styled mobile view, tablet view, and desktop view in that order, checking that the previous view was not broken by the next created view.
 

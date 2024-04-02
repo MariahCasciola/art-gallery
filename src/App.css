@@ -146,8 +146,8 @@ body {
 
 /* Left and right of page borders*/
 .padding-l-r {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Margin between three main components */
@@ -248,7 +248,7 @@ body {
 
   .logo-dark {
     z-index: 2;
-    clip-path: inset(0% 0% 0% 33%);
+    clip-path: inset(0% 0% 0% 41%);
   }
 
   .mobile {
@@ -346,7 +346,7 @@ body {
 
   .logo-dark {
     z-index: 2;
-    clip-path: inset(0% 0% 0% 62.5%);
+    clip-path: inset(0% 0% 0% 50%);
   }
 
   .mobile {
