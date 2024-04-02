@@ -19,8 +19,6 @@ body {
   width: 100%;
 }
 
-/* HIDING STUFF */
-
 .mobile {
   display: block;
   visibility: visible;
@@ -36,7 +34,6 @@ body {
   visibility: hidden;
 }
 
-/* Overridden with a measured height and width in desktop view*/
 .hide-white-logo {
   height: 0;
   width: 0;
@@ -74,24 +71,29 @@ body {
 
 .heading {
   font-family: "Shoulders", sans-serif;
-  margin-top: 9%;
-  margin-right: 15%;
-  margin-bottom: 3%;
+  padding-top: 9%;
+  padding-right: 15%;
+  padding-bottom: 3%;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 
-.img-m {
-  margin-bottom: 5%;
+.heading-logo {
+  padding-top: 10%;
+  padding-right: 10%;
+}
+
+.img-p {
+  padding-bottom: 5%;
 }
 
 .social-logo {
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 .social-logos-container {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Come and be inspired section */
@@ -107,7 +109,7 @@ body {
   font-weight: 350;
   letter-spacing: 0.063rem;
   padding-top: 7%;
-  padding-bottom: 8%;
+  padding-bottom: 7%;
 }
 
 /* Shoulders Font size and line height listed in Figma Design System (medium) */
@@ -143,14 +145,14 @@ body {
 }
 
 /* Left and right of page borders*/
-.margin-l-r {
-  margin-left: 4%;
-  margin-right: 4%;
+.padding-l-r {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Margin between three main components */
-.component-margin {
-  margin-bottom: 8rem;
+.component-padding {
+  padding-bottom: 8rem;
 }
 
 /* Hover effect */
@@ -163,7 +165,11 @@ body {
   font-size: 1.313rem;
   letter-spacing: 0.25rem;
   font-family: "Shoulders-Extra-Bold", sans-serif;
-  margin-top: 2%;
+}
+
+.button {
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .button:hover .sub-button {
@@ -186,33 +192,23 @@ body {
   padding: 2rem;
 }
 
-.start {
-  justify-content: flex-start;
-}
-
 /* Tablet */
 
 @media (min-width: 900px) {
   /* Flex styling */
-  .d-flex {
-    display: flex;
-  }
 
-  .d-column {
+  /* overide row and column */
+  .o-column {
     flex-direction: column;
   }
 
-  .d-row {
+  .o-row {
     flex-direction: row;
   }
 
-  /* make into an inset square instead of a div */
-  .black-box {
-    background-color: black;
-    height: 50rem;
-    width: 15rem;
-    float: left;
-    shape-outside: inset(20px 50px 10px 0 round 50px);
+  .o-center {
+    justify-content: center;
+    align-items: center;
   }
 
   .row-reverse {
@@ -230,7 +226,30 @@ body {
     top: 10.5rem;
   }
 
-  /* Hidden while in mobile visible in tablet */
+  /* make into an inset square instead of a div */
+  .black-box {
+    background-color: black;
+    height: 50rem;
+    width: 15rem;
+    float: left;
+    shape-outside: inset(20px 50px 10px 0 round 50px);
+  }
+
+  .position-logo {
+    height: 30rem;
+    width: 30rem;
+    left: 2rem;
+    top: 10rem;
+  }
+
+  .logo-light {
+    z-index: 1;
+  }
+
+  .logo-dark {
+    z-index: 2;
+    clip-path: inset(0% 0% 0% 41%);
+  }
 
   .mobile {
     display: none;
@@ -247,48 +266,36 @@ body {
     visibility: hidden;
   }
 
-  .position-logo {
-    height: 30rem;
-    width: 30rem;
-    left: 0rem;
-    top: 10rem;
+  .padding-b {
+    padding-bottom: 2rem;
   }
 
-  .logo-light {
-    z-index: 1;
-  }
-
-  .logo-dark {
-    z-index: 2;
-    clip-path: inset(0% 0% 0% 33%);
-  }
-
-  .margin-l-r-d {
-    margin: 0;
-  }
-
-  .margin-b {
-    margin-bottom: 2rem;
-    height: auto;
-    width: auto;
+  .padding-l {
+    padding-left: 1rem;
   }
 
   .heading {
-    margin-top: 0;
+    padding: 0;
+  }
+
+  .heading-logo {
+    padding-top: 10%;
+    padding-right: 2rem;
+    height: 10rem;
+    width: 30rem;
   }
 
   /* Your day at the gallery section */
   .section {
-    margin-right: 8rem;
+    margin-right: 10rem;
   }
 
   .item {
-    flex: 1;
+    flex: 1 1;
   }
 
-  .item1 {
-    flex: 1;
-    margin-left: 1rem;
+  .padding-r {
+    padding-right: 1rem;
   }
 
   /* Come and be inspired section */
@@ -298,19 +305,17 @@ body {
 
   /* Footer */
 
-  .social-logos-container {
-    margin-top: 5rem;
-    margin-bottom: 12rem;
-    justify-content: flex-end;
-  }
-
   .footer {
-    padding-bottom: auto;
+    padding: 0;
   }
 
   .footer-logo {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
     height: 3rem;
+  }
+
+  .social-logos-container {
+    padding-bottom: 8rem;
   }
 }
 
@@ -324,8 +329,8 @@ body {
     width: 25rem;
   }
 
-  .margin-l-r {
-    margin: 0;
+  .padding-l-r {
+    padding: 0;
   }
 
   .position-logo {
@@ -335,20 +340,14 @@ body {
     top: 10rem;
   }
 
-  .margin {
-    margin-bottom: 2rem;
-  }
-
   .logo-light {
     z-index: 1;
   }
 
   .logo-dark {
     z-index: 2;
-    clip-path: inset(0% 0% 0% 62.5%);
+    clip-path: inset(0% 0% 0% 50%);
   }
-
-  /* Makes desktop images visible */
 
   .mobile {
     display: none;
@@ -374,38 +373,26 @@ body {
     left: 55rem;
   }
 
-  .sub-button {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-size: 1.313rem;
-    letter-spacing: 0.25rem;
-    font-family: "Shoulders-Extra-Bold", sans-serif;
-    margin-top: 2%;
+  .padding-l-r-d {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
-  .margin-l-r-d {
-    margin-left: 8rem;
-    margin-right: 8rem;
+  .component-padding {
+    padding-bottom: 12rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .padding-l-r {
+    padding: 0;
   }
 
-  .component-margin {
-    margin-bottom: 12rem;
+  .padding-l-r-d {
+    padding-left: 30rem;
+    padding-right: 30rem;
   }
-
-  .item-big {
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: 40rem;
+  .component-padding {
+    padding-bottom: 10rem;
   }
-
-  .section {
-    margin-right: 10rem;
-  }
-
-  .margin-l {
-    margin-left: 1rem;
-  }
-
 }

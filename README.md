@@ -1,4 +1,4 @@
-# Frontend Mentor - Art gallery website solution
+# Art gallery
 
 ## Table of contents
 
@@ -12,64 +12,65 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
-Users should be able to:
-
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
-- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
 
 ### Screenshot
 
+- Mobile
+
+![Mobile image 1](./web-view/mobile-1.png)
+![Mobile image 2](./web-view/mobile-2.png)
+![Mobile image 3](./web-view/mobile-3.png)
+
+- Tablet
+
+![Tablet image 1](./web-view/tablet-1.png)
+![Tablet image 2](./web-view/tablet-2.png)
+
+- Desktop
+![Desktop image 1](./web-view/desktop-1.png)
+![Desktop image 2](./web-view/desktop-2.png)
+![Desktop image 3](./web-view/desktop-3.png)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/](https://art-gallery-gi34i9bdm-mariahcasciolas-projects.vercel.app/)
 
 ## My process
 
-- Used React to break up the process into a more digestible format for a single page
+- Used React to break up the page into a digestible format for future developement and for more modular development.
 
-- Place assets folder in src folder so they can be accessed in components via file paths
+- Styled mobile view, tablet view, and desktop view in that order, checking that the previous view was not broken by the next created view.
 
-- Create a skeleton with all of the required text and image links
+- Identified flex box and flex directions in mobile before tackling flex box before designing tablet and desktop boxes and directions.
 
-- Split the web page design into three and place in different components
+- Created reusable well named classes in order to create a more clean and dry stylesheet.
+
+- When styling each viewpoint I started at the top of the page and worked my way down the document, checking responsiveness with every new class and property.
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Google Font API
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
-- Learned about SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality.
+- SVGs as an alternative to JPEGS, gifs and PNGs(that they are used with vectors instead of pixel grids) and scale up and down with resolution without losing quality.
 
-- Learned how to use @font-face property in CSS for .ttf files
+- How to incorporate mulitple images at different viewpoints while learning how to hide them and remove them from flex box layouts
 
-- Learned about the clip-path property
+- How to use @font-face property in CSS for .ttf files
 
-- Learned about the z-index property
+- About the clip-path property and z-index property
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-## Author
-
-- Website - [Add your name here]()
-- Frontend Mentor - [@yourusername]()
-- Twitter - [@yourusername]()
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- A shopping cart for Art Gallery tickets
